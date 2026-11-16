@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yesta Plastik | Solusi Kemasan Plastik</title>
+  <meta name="description" content="Yesta Plastik menyediakan kebutuhan kemasan plastik dan POF Shrink Film.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #1e293b;
+      background: #f8fafc;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #ffffff;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px #00000010;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: bold;
+      color: #0755a5;
+    }
+
+    .logo span {
+      color: #f59e0b;
+    }
+
+    nav a {
+      color: #334155;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    .hero {
+      background: linear-gradient(120deg, #063b78, #0876c9);
+      color: white;
+      padding: 75px 7%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 38px;
+      line-height: 1.25;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto 25px;
+      color: #e0efff;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #f59e0b;
+      color: #172554;
+      padding: 12px 25px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 55px 7%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .section-title h2 {
+      color: #0755a5;
+      font-size: 28px;
+    }
+
+    .section-title p {
+      color: #64748b;
+      margin-top: 8px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px #0000000d;
+      padding: 25px;
+      text-align: center;
+    }
+
+    .product-icon {
+      background: #eaf3ff;
+      color: #0755a5;
+      font-size: 42px;
+      padding: 25px;
+      border-radius: 10px;
+      margin-bottom: 18px;
+    }
+
+    .product h3 {
+      color: #0755a5;
+      margin-bottom: 8px;
+    }
+
+    .product p {
+      color: #64748b;
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    .product a {
+      display: inline-block;
+      color: white;
+      background: #0755a5;
+      padding: 9px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .about {
+      background: #eaf3ff;
+      text-align: center;
+    }
+
+    .about p {
+      max-width: 700px;
+      margin: 12px auto;
+      color: #475569;
+    }
+
+    .contact {
+      background: #0755a5;
+      color: white;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+
+    .contact p {
+      margin-bottom: 22px;
+      color: #e0efff;
+    }
+
+    footer {
+      background: #082f56;
+      color: #cbd5e1;
+      padding: 20px;
+      text-align: center;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 15px 5%;
+      }
+
+      nav a {
+        margin-left: 10px;
+        font-size: 12px;
+      }
+
+      .logo {
+        font-size: 21px;
+      }
+
+      .hero {
+        padding: 60px 6%;
+      }
+
+      .hero h1 {
+        font-size: 30px;
+      }
+
+      section {
+        padding: 45px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">YESTA<span>PLASTIK</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#produk">Produk</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Solusi Kebutuhan<br>Kemasan Plastik Anda</h1>
+    <p>
+      Yesta Plastik menyediakan produk kemasan plastik
+      untuk mendukung kebutuhan bisnis dan industri Anda.
+    </p>
+    <a href="#produk" class="btn">Lihat Katalog Produk</a>
+  </section>
+
+  <section id="produk">
+    <div class="section-title">
+      <h2>Katalog Produk</h2>
+      <p>Temukan kebutuhan kemasan plastik Anda.</p>
+    </div>
+
+    <div class="products">
+
+      <div class="product">
+        <div class="product-icon">📦</div>
+        <h3>POF Shrink Film Roll</h3>
+        <p>
+          Plastik shrink film berbentuk roll
+          untuk kebutuhan pengemasan produk.
+        </p>
+        <a href="#kontak">Tanya Produk</a>
+      </div>
+
+      <div class="product">
+        <div class="product-icon">🛍️</div>
+        <h3>POF Shrink Bag</h3>
+        <p>
+          Kemasan shrink berbentuk kantong
+          untuk berbagai kebutuhan produk.
+        </p>
+        <a href="#kontak">Tanya Produk</a>
+      </div>
+
+      <div class="product">
+        <div class="product-icon">🏭</div>
+        <h3>Kemasan Plastik Lainnya</h3>
+        <p>
+          Hubungi kami untuk informasi
+          produk dan kebutuhan kemasan lainnya.
+        </p>
+        <a href="#kontak">Tanya Produk</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="section-title">
+      <h2>Tentang Yesta Plastik</h2>
+    </div>
+    <p>
+      Yesta Plastik hadir sebagai penyedia kebutuhan
+      kemasan plastik. Kami berkomitmen membantu pelanggan
+      menemukan solusi kemasan yang sesuai dengan kebutuhan
+      bisnis mereka.
+    </p>
+  </section>
+
+  <section class="contact" id="kontak">
+    <h2>Butuh Informasi Produk?</h2>
+    <p>
+      Hubungi tim Yesta Plastik untuk informasi produk,
+      spesifikasi, dan penawaran harga.
+    </p>
+    <a class="btn"
+       href="https://wa.me/628xxxxxxxxxx"
+       target="_blank">
+       Hubungi WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    &copy; 2026 Yesta Plastik. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
